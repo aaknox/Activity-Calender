@@ -1,11 +1,9 @@
 ﻿self.addEventListener('install', function (event){
     event.waitUntil(
         caches.open('sw-cache').then(function (cache) {
-            return cache
-                .add('index.html')
-                .add('main.css')
-                .add('script.js')
-                .add('script2.js');
+            return cache.addAll([
+                'index.html', 'script.js', 'script2.js', 'main.css'
+            ])
         })
     )
 });
