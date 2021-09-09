@@ -2,12 +2,11 @@
   "short_name": "activity-calender",
   "name": "Activity Calender",
   "icons": [
-    //empty for now - images go here
-    /*
-    "src":"file-location",
-    "type": "image/png",
-    "sizes": "sizes-allowed"
-    */
+    {
+      "src": "/week_images/monday.png",
+      "type": "image/png",
+      "sizes": "340x341"
+    }
   ],
   "start_url": "/index.html",
   "background_color": "#000000",
