@@ -1,6 +1,13 @@
 {
   "short_name": "activity-calender",
   "name": "Activity Calender",
+  "icons": [
+    {
+      "src": "/week_images/monday.png",
+      "type": "image/png",
+      "sizes": "340x341"
+    }
+  ],
   "start_url": "/index.html",
   "background_color": "#000000",
   "display": "standalone",

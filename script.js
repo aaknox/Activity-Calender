@@ -147,10 +147,8 @@ function updateCopies(){
 function reloadPreviousCalendar(){
 	// Get latest version of the body of the calendar app
 	var latestBody = localStorage.getItem("latest version")
-	console.log(latestBody);
 	// After "</script>" is when the newly added images appear, which is what we want to load when opening the app (these images are stored in index 1 of the array)
 	x = latestBody.split("</script>")
-	console.log(x);
 	// Convert the string containing the images we want to load into actuall html (now stored in the body of some sample HTML)
 	convertedToHTML = new DOMParser().parseFromString(x[1], 'text/html');
 	// Store the actual image elements in an array of image elements what we will now load
