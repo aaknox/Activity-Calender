@@ -1,0 +1,16 @@
+{
+  "short_name": "activity-calender",
+  "name": "Activity Calender",
+  "icons": [
+    //empty for now - images go here
+    /*
+    "src":"file-location",
+    "type": "image/png",
+    "sizes": "sizes-allowed"
+    */
+  ],
+  "start_url": "/index.html",
+  "background_color": "#000000",
+  "display": "standalone",
+  "theme_color": "#5baaa8"
+}
